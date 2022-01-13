@@ -22,7 +22,7 @@ I had many problem with the endpoints , now i explain about the problem with tho
 - https://search.torre.co/opportunities/_search/?, https://search.torre.co/people/_search/? ->
   I can't test them since I need the json structure to send the post.
 
-![error-CORS](https://develop)
+![error-CORS](https://github.com/luisangel2895/torre-frontend/blob/bf044ec2cd6b7c07175656baa7fc60f313673d0b/images/Screenshot_2.png)
 
 ## Temp Solution
 
@@ -36,8 +36,8 @@ In each component of vue i use Typescript and use components like a function, in
 
 In the part of design i only try to improve the current design to make more mobile friendly the application, and in the part of development i chose Vuetify because is oriented to mobile. Here some views of the project in mobile.
 
-![views-mobile](https://github.com/)
-![views-mobile](https://github.com/)
+![views-mobile](https://github.com/luisangel2895/torre-frontend/blob/bf044ec2cd6b7c07175656baa7fc60f313673d0b/images/Screenshot_3.png)
+![views-mobile](https://github.com/luisangel2895/torre-frontend/blob/bf044ec2cd6b7c07175656baa7fc60f313673d0b/images/Screenshot_1.png)
 
 # How to run the project
 
