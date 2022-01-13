@@ -1,32 +1,30 @@
-<template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view />
-  </div>
+<template lang="pug">
+v-app(id="app")
+  navbar-component
+  v-main
+    router-view
 </template>
 
-<style>
+<script lang="ts">
+import Vue from "vue";
+import NavbarComponent from "./components/navbar/NavbarComponent.vue";
+
+export default Vue.extend({
+  name: "App",
+  components: {
+    NavbarComponent,
+  },
+});
+</script>
+<style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Mulish:wght@700&family=Roboto:wght@300&display=swap");
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  font-family: "Be Vietnam Pro", sans-serif;
 }
-
-#nav {
-  padding: 30px;
+.logo__text {
+  color: red;
 }
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+.logo__text_2 {
+  color: blue;
 }
 </style>
